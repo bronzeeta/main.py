@@ -9,8 +9,8 @@ from fastapi import FastAPI, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 
 # ====== التوكن حق بوت تيليجرام (إذا جاهز) ======
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_TOKEN"   # ← غيّره لبعدين
-TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"         # ← غيّره لبعدين
+TELEGRAM_TOKEN = "8558238325:AAE5UKVgLtNFF9Yw3G4_j8JuTu-Ov5YVY1M"   # ← غيّره لبعدين
+TELEGRAM_CHAT_ID = "989656943"         # ← غيّره لبعدين
 ASSETS = ["BTCUSDT", "ETHUSDT", "EURUSDT", "XAUUSDT", "GBPUSDT", "XRPUSDT", "ADAUSDT"]
 INTERVAL = "5m"
 
